@@ -6,8 +6,7 @@ import AuthorForm from "@/app/components/forms/AuthorForm";
 const author = {
   id: "1",
   name: "Albert Camus",
-  country: "France",
-  birthDate: "1913-11-07",
+  country: "Franc
   bio: "French philosopher and writer",
 };
 
