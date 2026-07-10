@@ -4,4 +4,4 @@ import pandas as pd
 data = pd.read_csv("creditcard.csv")
 
 # عرض أول 5 صفوف
-print(data.head())
+print(data.head())hbgiuhioj)juço^_yçç
