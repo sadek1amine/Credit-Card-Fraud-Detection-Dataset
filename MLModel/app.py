@@ -8,7 +8,7 @@ from typing import List
 class Transaction(BaseModel):
     features: List[float] = Field(..., min_items=30, max_items=30)
 
-app = FastAPI(title="💸 Fraud Detection API")
+app = FastAPI(title="💸 Fraud Detection API")GGGGGGGGGGGGGGGGGGGGG
 
 # تحميل الملفات المحفوظة
 try:
