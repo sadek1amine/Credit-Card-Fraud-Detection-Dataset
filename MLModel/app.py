@@ -2,7 +2,7 @@ import pickle
 import numpy as np
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
-from typing import List
+from typing import Listgggggggggggggggggggggggggggggggggggg
 
 # 1. بناء الهيكل المدخل
 class Transaction(BaseModel):
