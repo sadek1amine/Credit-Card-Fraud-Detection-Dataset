@@ -13,7 +13,7 @@ from sklearn.preprocessing import StandardScaler
 # 📦 1. Load Dataset
 # =========================================
 
-print("📥 Loading dataset...")hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+print("📥 Loading dataset...")h
 # Make sure creditcard.csv is in the same directory
 data = pd.read_csv("creditcard.csv")
 
