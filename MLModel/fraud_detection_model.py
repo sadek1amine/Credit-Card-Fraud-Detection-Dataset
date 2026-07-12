@@ -13,12 +13,12 @@ from sklearn.preprocessing import StandardScaler
 # 📦 1. Load Dataset
 # =========================================
 
-print("📥 Loading dataset...--
+print("📥 Loading dataset...")
 # Make sure creditcard.csv is in the same directory
 data = pd.read_csv("creditcard.csv")
 
 # ⚡ Optimization: use smaller dataset
-data = data.sample(n=50000, random_state=42)
+data = data.sample(n=min(50000, len(data)), random_state=42)
 
 print("✅ Dataset loaded!")
 print(data.head())
