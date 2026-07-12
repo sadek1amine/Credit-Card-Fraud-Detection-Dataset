@@ -1,13 +1,13 @@
 import os
 import pickle
-import numpy as np
+import numpy as np  
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)  # Enable Cross-Origin Resource Sharing
 
-# Load model and scaler once at startup
+# Load  model and scaler once at startup
 try:
     with open("fraud_model.pkl", "rb") as f:
         model = pickle.load(f)
@@ -54,3 +54,4 @@ def predict():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
+
