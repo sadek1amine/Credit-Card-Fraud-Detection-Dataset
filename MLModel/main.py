@@ -1,8 +1,6 @@
 import pandas as pd
 
-# تحميل البيانات
-data = pd.read_csv("creditcard.csv")
 
-# عرض أول 5 صفوف
+data = pd.read_csv("creditcard.csv" )
 print(data.head())
 
